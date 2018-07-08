@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="project1" >
+  <head>
+    <meta charset="utf-8">
+    <script src="js/angular.js"> </script>
+    <script src="js/project1.js"> </script>
+    <title>Project 1: ASCII Value</title>
+
+  </head>
+
+  <body>
+
+      <h1> ASCII String Value Calculator </h1>
+
+      <div controller="asciiValueController">
+        <label>Enter the Value: </label>
+        <input type="text" ng-model="data" ng-keyup="calculateValue();" />
+
+        <h5> The ASCII value of entered string {{data}} is: {{totalValue}}</h5>
+      </div>
+  </body>
+</html>
