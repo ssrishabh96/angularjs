@@ -15,10 +15,9 @@ angular.module('project1',[])
 
   function stringToValue(string){
     var tempValue=0;
-    System.console.log("stringToValue function called");
 
     for(var i=0; i<string.length; i++){
-      tempValue+= string.charCodeAt(i)
+      tempValue+= string.charCodeAt(i);
     }
     return tempValue;
   }

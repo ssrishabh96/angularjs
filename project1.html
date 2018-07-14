@@ -12,11 +12,11 @@
 
       <h1> ASCII String Value Calculator </h1>
 
-      <div controller="asciiValueController">
+      <div ng-controller="asciiValueController">
         <label>Enter the Value: </label>
         <input type="text" ng-model="data" ng-keyup="calculateValue();" />
 
-        <h5> The ASCII value of entered string {{data}} is: {{totalValue}}</h5>
+        <h5> The ASCII value of entered string {{data}} is: {{totalValue}}.</h5>
       </div>
   </body>
 </html>
